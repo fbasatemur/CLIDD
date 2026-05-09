@@ -1,5 +1,9 @@
 # CLIDD: Cross-Layer Independent Deformable Description for Efficient and Discriminative Local Feature Representation
 
+> **Fork note:** [`test_invariance.py`](test_invariance.py) is added to evaluate CLIDD's geometric invariance and seasonal consistency on satellite image pairs, benchmarking L64 vs. U128 under rotation and translation transforms.
+
+<img src="results/comparison.jpg" width='1000'>
+
 We introduce Cross-Layer Independent Deformable Description (CLIDD), a high-performance local feature representation method designed for scalability. It provides a diverse range of models, from an ultra-compact 4,252 (0.004M) parameter variant to high-performance configurations exceeding 200 FPS on edge devices, delivering a robust and efficient solution for image description and matching.
 
 <img src="assets/visualization.png" width='1000'>
